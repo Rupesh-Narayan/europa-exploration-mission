@@ -16,8 +16,8 @@ This project implements a navigation module for NASA's Europa Exploration Missio
 ## Running the Project
 
 - Clone the repository:
-    - git clone <repository-url>
-- cd <repository-folder>
+    - git clone git@github.com:Rupesh-Narayan/europa-exploration-mission.git
+- cd europa-exploration-mission
 
 - Build the project
   - mvn compile
