@@ -20,10 +20,11 @@ This project implements a navigation module for NASA's Europa Exploration Missio
 - cd europa-exploration-mission
 
 - Build the project
-  - mvn compile
+  - mvn package
 
 - Run the project
-  - mvn exec:java -Dexec.mainClass=com.maxhome.europa.EuropaMain
+  - cd target
+  - java -jar europa-exploration-mission-1.0-SNAPSHOT.jar
 
 
 You can provide input directly via the console or redirect input from a file.
