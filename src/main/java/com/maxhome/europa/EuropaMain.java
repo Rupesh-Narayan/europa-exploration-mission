@@ -7,8 +7,9 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-@Slf4j
 public class EuropaMain {
+
+    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(EuropaMain.class);
 
     static List<Robot> robots = new ArrayList<>();
 
